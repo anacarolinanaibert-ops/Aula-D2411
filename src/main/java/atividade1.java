@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class atividade11 {
+public class atividade1 {
     String nome;
     String matricula;
     double prova01;
     double prova02;
     double trabalho01;
 
-    public atividade11(String nome, String matricula, double prova01, double prova02, double trabalho01) {
+    public atividade1(String nome, String matricula, double prova01, double prova02, double trabalho01) {
         this.nome = nome;
         this.matricula = matricula;
         this.prova01 = prova01;
@@ -40,7 +40,7 @@ public class atividade11 {
         double trabalho01 = scanner.nextDouble();
 
 
-        atividade11 aluno = new atividade11(nome, matricula, prova01, prova02, trabalho01);
+        atividade1 aluno = new atividade1(nome, matricula, prova01, prova02, trabalho01);
 
         double mediaFinal = aluno.media();
 
